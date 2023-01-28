@@ -1,0 +1,75 @@
+@import './config';
+
+body{
+    font-size: 15px;
+    background-color: $very-light-gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0; 
+}
+
+.grid{
+
+    &__item{
+        padding: 55px;
+
+        h1{
+            color: $very-light-gray;
+            text-transform: uppercase;
+            margin: 35px 0;
+        }
+
+        p{
+            color: $transparent-white;
+            line-height: 1.5;
+            margin-bottom: 35px;
+        }
+
+
+        &:nth-child(1){
+            background-color: $bright-orange;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+
+            button{
+                color: $bright-orange;
+            }
+        }
+
+        &:nth-child(2){
+            background-color: $dark-cyan;
+
+            button{
+                color: $dark-cyan;
+            }
+        }
+
+        &:nth-child(3){
+            background-color: $very-dark-cyan;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+
+            button{
+                color: $very-dark-cyan;
+            }
+        }
+
+        button{
+            background-origin: $very-light-gray;
+            padding: 13px 26px;
+            border-radius: 50px;
+            border: 2px solid transparent;
+            cursor: pointer;
+
+            &:hover{
+                background-color: transparent;
+                border: 2px solid $very-light-gray;
+                color: $transparent-white;
+            }
+        }
+    }
+    
+}
+
+@import './responsive';

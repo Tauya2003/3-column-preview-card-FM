@@ -1,0 +1,29 @@
+@include media-mobile{
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 300px;    
+    }
+}
+
+@include media-laptop{
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 860px;
+        margin: 70px auto;    
+
+        &__item:nth-child(1){
+            border-top-right-radius: 0;
+            border-bottom-left-radius: 10px;
+        } 
+
+        &__item:nth-child(3){
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 0;
+        } 
+        button{
+            margin-top: 45px;
+        }    
+    }
+}
