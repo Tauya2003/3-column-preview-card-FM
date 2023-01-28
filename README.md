@@ -49,8 +49,8 @@ Users should be able to:
 
 ## Author
 
-- Github - [Tauya2003](https://www.your-site.com)
-- Frontend Mentor - [@Tauya2003](https://www.frontendmentor.io/profile/Tauya@2003)
+- Github - [Tauya2003](https://github.com/Tauya2003)
+- Frontend Mentor - [@Tauya2003](https://www.frontendmentor.io/profile/Tauya2003)
 - Twitter - [@ayuat2003](https://www.twitter.com/ayuat2003)
 
 
