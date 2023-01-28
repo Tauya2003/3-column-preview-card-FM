@@ -10,7 +10,7 @@
     .grid{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        width: 860px;
+        width: 960px;
         margin: 70px auto;    
 
         &__item:nth-child(1){
